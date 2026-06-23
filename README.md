@@ -1,10 +1,3 @@
-# tianchi-yolo-vs-rtdetr
-
-Data should be placed in:
-
-D:\VisionPhD\data\Tianchi
-
-
 # Tianchi: YOLO vs RT-DETR
 
 ## Project goal
