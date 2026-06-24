@@ -15,3 +15,21 @@ Observations:
 - Likely underfitting (low epochs)
 - Small defects are hard to detect
 ``
+
+Experiment 2: RT DETR (baseline)
+
+Epochs: 10
+Image size: 512
+Device: CPU
+
+Results:
+- Precision: 0.670
+- Recall: 0.308
+- mAP@0.5: 0.357
+- mAP@0.5:0.95: 0.208
+
+Observations:
+- Low recall indicates missed defects
+- Likely underfitting (low epochs)
+- Small defects are hard to detect
+``
