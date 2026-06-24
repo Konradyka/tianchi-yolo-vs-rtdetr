@@ -28,8 +28,13 @@ Results:
 - mAP@0.5: 0.357
 - mAP@0.5:0.95: 0.208
 
+
 Observations:
-- Low recall indicates missed defects
-- Likely underfitting (low epochs)
-- Small defects are hard to detect
+- RT-DETR achieves higher precision and recall compared to YOLOv8n baseline
+- Significant improvement in recall suggests better detection of missed defects
+- Higher mAP indicates improved localization and classification performance
+- Model likely benefits from transformer-based global attention mechanisms
+- RT-DETR appears more effective for small and subtle defects
+- Training on CPU is computationally expensive and may limit performance
+
 ``
